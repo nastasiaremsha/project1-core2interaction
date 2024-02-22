@@ -1,0 +1,424 @@
+@charset "UTF-8";
+html, body, header, nav, div, ol, ul, li, dl, dt, dd, heading, img, p, h1, h2, h3, h4, h5, h6, main, aside, article, section, footer, pre, form, fieldset, input, blockquote, textarea, table, th, td, embed, object  {
+margin: 0px;
+padding: 0px;
+}
+body{
+	background-color: #D2CAC0;
+}
+main{
+	padding: 5%;
+	
+}
+.mainone{
+	
+	height: 1vh;
+	
+	
+	}
+.maintwo{
+	
+	height: 1vh;
+	
+	
+	}
+h1{
+font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 4em;
+	line-height: .9;
+;
+}
+h2{
+font-family: "cofo-sans-mono-variable", sans-serif;
+font-variation-settings: "wght" 400;	
+	text-align: center;
+	line-height: 28;
+	text-decoration:underline;
+	color: black;
+}
+h2:hover{
+	text-decoration: line-through;
+	cursor: pointer;
+	color: #999083;
+}
+h3{
+	font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2em;
+	text-align: right;
+}
+h4{
+	
+font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 1.5em;
+	line-height: 0;
+;
+}
+h5{
+	
+font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 1.5em;
+	
+;
+}
+.topofpage{
+	height: 10%;
+	padding-top: 7%;
+	padding-right: 7%;
+	padding-left: 4%;
+}
+.pagenumber{
+	float: right;
+	
+}
+.chapter{
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 33%;
+	width: 100%;
+	padding-bottom: 33%;
+	
+}
+p{
+font-family: "cofo-sans-mono-variable", sans-serif;
+font-variation-settings: "wght" 400;
+	text-shadow: 2px 2px;
+	opacity: .4;
+}
+p:hover{
+	 text-shadow: none;
+	opacity: 1;
+	
+	
+}
+
+	
+body{
+	overflow-x: hidden;
+}
+.blur-text {
+  backdrop-filter: blur(0px); 
+  transition: backdrop-filter 0.3s ease; 
+}
+.text {
+  opacity: 1;
+  transition: opacity ease-in 2.5s;
+	transition: text-shadow ease-in 2.5s;
+
+}
+.text-two{
+  opacity: 1;
+  transition: opacity ease-in 2.5s;
+	transition: text-shadow ease-in 2.5s;
+
+}
+
+
+
+.text.fade-out {
+    opacity: .5;
+    text-shadow: 2px 2px;
+}
+img{
+	width:50%;
+	height: auto;
+
+	}
+.plant-shadow{
+	float: right;
+	width: 50%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+.fourth-shadow{
+	float: left;
+	width: 50%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+.firstshadow{
+float: left;
+	width: 50%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	
+}
+.thirdshadow{
+float: right;
+	width: 50%;
+	padding-left: 5%;
+	padding-bottom: 5%;	
+}
+
+.img-one{
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	
+}
+.img-two{
+	width:
+		100%;
+		margin-bottom: 5%;
+	margin-top: 5%;
+	
+	
+	
+	}
+
+.img-two p{
+	padding-right: 5%;
+}
+.text{
+	margin-bottom: 5%;
+}
+.continue{
+	text-align: right;
+	text-decoration:underline;
+	padding-bottom: 5%;
+}
+.continue:hover{
+	text-decoration: line-through;
+	cursor: pointer;
+	color: #999083;
+}
+
+.page-two{
+	display: none;
+}
+ .first-textctwo {
+	 
+height: vh;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chaptertwofirstp {
+        
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+ .sec-textctwo {
+	 
+height: vh;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chaptertwosecp {
+        
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+ .third-textctwo {
+	 
+height: vh;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chapterthirdsecp {
+        
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+ .fourth-textctwo {
+	 
+height: vh;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chapterfourthsecp {
+        
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+ .fifth-textctwo {
+	 
+height: vh;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chapterfifthsecp {
+        
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+.fade-in-textt{
+	height: 80%;
+}
+
+.grid{
+	
+	margin-top: 75%;
+	
+	
+	
+}
+.firstgrid{
+	width: 500px;
+	margin: 0px auto;
+	position: relative;
+	height: 500px;
+	
+	
+}
+
+.firstsquare{
+	width: 500px;
+	
+	margin: 0px auto;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 500px;
+	z-index: 1;
+	opacity: 85%;
+	
+}
+.firstsquare:hover{
+	opacity: 50%;
+}
+
+/*
+.firstoverlay{
+	background-color: #72726A;
+	width: 500px;
+	height: 500px;
+	top: 500px;
+*/
+
+.firstgrid p{
+	z-index: -1;
+	padding: 15px;
+	font-size: 1.5em;
+}
+.chapterthreebg{
+	background-image: url("../_imgs/Screenshot 2024-02-21 at 8.17.50 PM.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5%;
+	
+}
+a{
+	color: black;
+}
+
+ @keyframes fadeInn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in-textt {
+        animation: fadeInn 2s ease-in;
+    }
+
+
+@media screen and (min-width:1200px){
+	h2{
+
+		line-height: 25;}
+	.page-one{
+		width: 50%;
+		margin-right: 0px;
+	}
+	
+	.plant-shadow{
+		display: none;
+	}
+	.firstshadow{
+		display: none;
+	}
+	.page-two{
+		display: contents;
+		
+		
+	}
+	img{
+		width: 40%;
+	
+	}
+	.plant-shadowtwo{
+		opacity: .3;
+		    -webkit-box-shadow: 0px 0px 16px;
+    box-shadow: 0px 0px 16px;
+	}
+	
+	.plant-shadowtwo:hover{
+    opacity: 1;
+   	
+	
+		
+	}
+		.firstshadowtwo{
+	
+    -webkit-box-shadow: 0px 0px 16px;
+    box-shadow: 0px 0px 16px;
+			opacity: .3;
+			
+	}
+	.firstshadowtwo:hover{
+	opacity: 1;	
+	
+		
+	}
+	
+	.page-one{
+		float:right;
+	}
+.chapter{
+	height: .5vh;
+	font-size: 1.5em;
+	padding-top: 28%;
+	padding-bottom: 28%;
+}
+.topofpage{
+	height: 10%;
+	font-size: 1em;
+	padding: 2%;
+}
+
+
+.grid{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	grid-gap: 5%;
+	margin-top: 33%;
+	
+}
+	.firstgrid p{
+		font-size: 1em;
+	}
+}
+
+

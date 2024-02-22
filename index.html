@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>in-praise-of-shadows</title>
+<link href="_css/inpraise ofshadows.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/uym4jmd.css">
+	<link rel="stylesheet" href="https://use.typekit.net/uym4jmd.css">
+	
+<!--
+font-family: "cofo-sans-mono-variable", sans-serif;
+font-variation-settings: "wght" 400;
+-->
+<!--
+Mastro Display Regular
+font-family: "mastro-display", sans-serif;
+font-weight: 400;
+font-style: normal;
+Mastro Display Regular Italic
+font-family: "mastro-display", sans-serif;
+font-weight: 400;
+font-style: italic;
+Mastro Display Bold
+font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+Mastro Display Bold Italic
+font-family: "mastro-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+-->
+</head>
+
+<body>
+	<main>
+	<div class="mainone">
+	<h1>in Praise</h1><br> <h1>of Shadows</h1>	
+		<h2><a href="inpraiseofsadows2 - Copy.html">immerse in story</a></h2>
+		<h3>by Junichiro Tanizaki</h3>
+		</div>
+	
+	</main>
+</body>
+</html>
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollingText = document.querySelector('.chaptertwofirstp');
+        var scrollingTextContainer = document.querySelector('.first-textctwo');
+        var scrollPosition = window.scrollY;
+        var textPosition = scrollingTextContainer.getBoundingClientRect().top;
+
+       
+        if (textPosition < window.innerHeight && textPosition > 0) {
+            var opacity = 1 - (textPosition / window.innerHeight);
+            scrollingText.style.opacity = opacity;
+        }
+    });
+	
+	
+	    window.addEventListener('scroll', function() {
+        var scrollingText = document.querySelector('.chaptertwosecp');
+        var scrollingTextContainer = document.querySelector('.sec-textctwo');
+        var scrollPosition = window.scrollY;
+        var textPosition = scrollingTextContainer.getBoundingClientRect().top;
+
+        
+        if (textPosition < window.innerHeight && textPosition > 0) {
+            var opacity = 1 - (textPosition / window.innerHeight);
+            scrollingText.style.opacity = opacity;
+        }
+    });
+	
+		    window.addEventListener('scroll', function() {
+        var scrollingText = document.querySelector('.chapterthirdsecp');
+        var scrollingTextContainer = document.querySelector('.third-textctwo');
+        var scrollPosition = window.scrollY;
+        var textPosition = scrollingTextContainer.getBoundingClientRect().top;
+
+        if (textPosition < window.innerHeight && textPosition > 0) {
+            var opacity = 1 - (textPosition / window.innerHeight);
+            scrollingText.style.opacity = opacity;
+        }
+    });
+</script>
